@@ -1,0 +1,189 @@
+.dashboard{
+
+	&__profile{
+		max-width: 500px;
+		margin: 20px auto; 
+		padding: 40px 0px 20px 0px; 
+		border-top: solid 1px #e8e8e8;
+	}
+
+	&__profile-img-group{
+
+		margin-bottom: 25px;
+
+		& input{
+	    	display: block;
+		    border-radius: 0px;
+		    margin: 10px auto 0 auto;
+		    width: 225px;
+		    border: solid 1px #e8e8e8;
+		    background-color: #e7ecef;
+		    color: #31c17b;
+		    padding: 10px;
+		    font-size: 12px;
+		    cursor: pointer;
+		    touch-action: manipulation;
+    	}
+
+    	& label{
+    		display: block;
+		    text-align: center;
+		    margin: 2px auto 0px auto;
+		    font-size: 14px;
+		    font-weight: bold;
+		    cursor: pointer;
+		    touch-action: manipulation;
+		    -ms-touch-action: manipulation;
+    	}
+	}
+
+	&__profile-pic{
+		display:block;
+		width: 160px;
+		height: 160px;
+		min-width: 160px;
+		max-width: 160px;
+   		max-height: 160px;
+    	min-height: 160px;
+		border-radius:100%;
+    	margin: 10px auto 10px auto;
+	}
+
+	&__username{
+	    text-align: center;
+	    padding: 5px 0px;
+	    font-weight: 500;
+    	font-size: 32px;
+
+	}
+
+	&__user-profession{
+	    text-align: center;
+	    font-weight: 400;
+	    padding: 5px 0px;
+	    font-size: 16px;
+    	color: #979797;
+    	font-variant: small-caps;
+	}	
+
+	&__price-tag{
+		margin: 10px auto; 
+	    background-color: #31C17B;
+	    color: white;
+	    padding: 5px 10px;
+	    max-width: 150px;
+    	text-align: center;
+
+		&__dollar{
+			font-size: 18px;
+		    font-weight: bold;
+	    }
+
+		&__amount{
+			font-size: 14px;
+			font-weight: 400;
+		}
+	}
+
+
+
+	&__user-bio{
+		text-align: center;
+	    padding: 15px 45px;
+	    border-top: solid 1px #e8e8e8;
+	    margin-top: 50px;
+	    position: relative;
+
+	    &__quote{
+		    font-size: 40px;
+		    font-weight: bold;
+		    margin-top: -50px;
+		    display: inline-block;
+		    height: 0px;
+		    position: relative;
+		    top: 12px;
+		    font-family: sans-serif;
+	    }
+	}
+
+	&__ranking{
+		text-align: center;
+	    padding: 20px 0px 10px 0px;
+	    font-weight: 300;
+	    max-width: 300px;
+	    margin: 0 auto;
+	    border-top: solid 1px #e8e8e8;
+	    text-transform: uppercase;
+
+	    &__pound{
+	    	font-weight: bold;
+		    font-size: 40px;
+		    padding-top: 11px;
+		    display: inline-block;
+		    vertical-align: sub;
+	    }
+	}
+
+	&__items{
+		text-align: center;
+	    margin: 30px auto;
+	    max-width: 800px;
+
+	    &__title{
+			padding: 20px 0px;
+		    text-align: center;
+		    text-transform: uppercase;
+		    border-bottom: solid 1px black;
+		    margin-bottom: 45px;
+	    }
+
+	    &__list{
+	    	background-color: #4B4B4B;
+    		padding: 40px 0px;
+    		margin: 45px auto; 
+	    }
+
+	    &__item{
+		    padding: 10px 0px;
+		    border-bottom: solid 1px white;
+		    width: 92%;
+		    background: white;
+		    border: solid 1px #F0F5F8;
+		    color: black;
+		    margin: 25px auto;
+
+		    &__title{
+		    	text-align: center;
+			    display: block;
+			    padding-left: 10px;
+			    text-transform: uppercase;
+			    font-weight: bold;
+		    }
+
+		    &__bought-at{
+		    	text-align: center;
+			    display: block;
+			    padding-left: 10px;
+			    text-transform: lowercase;
+			    font-weight: normal;
+			    font-variant: small-caps;
+			    color: #979797;
+		    }
+
+		    &__sold-at{
+		    	text-align: center;
+			    display: block;
+			    padding-left: 10px;
+			    text-transform: lowercase;
+			    font-weight: normal;
+			    font-variant: small-caps;
+			    color: #979797;
+			    border-bottom: solid 1px #31c17b;
+			    max-width: 220px;
+			    margin: 0 auto 25px auto;
+		    }
+	    }
+
+	}
+
+}

@@ -1,0 +1,37 @@
+.body__side-menu{
+		display: inherit !important;
+		-webkit-overflow-scrolling: touch;
+	    z-index: 999;
+	    height: 100%;
+	    position: absolute;
+	    min-height: 100%;
+	    left: 0;
+	    transform: translateX(-100%);
+	    -webkit-transform: translateX(-100%);
+	    width: 90%;
+	    top: 0;
+	    transition: 0.3s;
+	    overflow-y: auto;
+	    background: #4B4B4B;
+
+	    &--active{
+	    	transform: translateX(0%);
+	    	-webkit-transform: translateX(0%);
+	    }
+}
+
+.body__main{
+	min-width: initial !important;
+	width: 100%;
+    position: relative;
+    min-height: 100%;
+    margin: auto;
+
+	&--active{
+		position: fixed;
+	    top: 0;
+	    overflow: hidden !important;
+	    transform: translateX(90%);
+	    -webkit-transform: translateX(90%);
+	}
+}

@@ -1,0 +1,26 @@
+.gv-modal__update-profile{
+	& .modal-content{
+		border-radius: 0px;
+	}
+
+	& .modal-title{
+		text-align: Center;
+	    padding: 20px 0;
+	    text-transform: uppercase;
+	    text-decoration: underline;
+	}
+}
+
+.gv-modal__add-item{
+	& .modal-content{
+		border-radius: 0px;
+	}
+	
+	& .modal-title{
+		text-align: Center;
+	    padding: 20px 0;
+	    text-transform: uppercase;
+	    text-decoration: underline;
+	}
+
+}

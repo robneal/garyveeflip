@@ -1,0 +1,49 @@
+// _shame.scss
+// ---------------------------------------------------------------------------//
+
+
+.show-me{
+	display:block;
+}
+
+.hide-me{
+	display:none;
+}
+
+.site-header__main-menu .btn{
+	text-transform: uppercase;
+	
+	padding-top: 5px !important;
+	padding-bottom: 5px !important; 
+	color:black !important; 
+	border: none !important; 
+	outline: none !important; 
+	background-color: white !important; 
+	border-color: white!important; 
+	text-transform: lowercase;
+	font-variant: small-caps;
+
+	&:hover, &:active, &:focus{
+		padding-top: 5px !important;
+		padding-bottom: 5px !important; 
+		color: #5CAFFD !important; 
+		border: none !important; 
+		outline: none !important; 
+		background-color: none !important; 
+		border-color: none !important; 
+	}
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.clear{
+  clear:both;
+}

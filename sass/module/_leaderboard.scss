@@ -1,0 +1,136 @@
+.leaderboard{
+
+
+	&__title{
+		text-align: center; 
+	}
+
+	&__your-profile{
+	    background: #4B4B4B;
+	    max-width: 600px;
+	    margin: 0 auto;
+	    height: 230px;
+
+		&__title{
+			color: white;
+		    font-weight: bold;
+		    text-transform: uppercase;
+		    padding-left: 50px;
+		    position: relative;
+		    top: 30px;
+		}
+	}
+
+	&__person{
+		
+		height: 110px;
+	    /* display: flex; */
+	    width: 100%;
+	    background: white;
+	    max-width: 500px;
+	    position: relative;
+	    border: solid 1px #F0F5F8;
+	    margin: 45px auto;
+	    display: flex;
+
+    	&__image-group{
+    		width: 30%;
+    		background-color: #F0F5F8;
+
+    		& img{
+			    vertical-align: top;
+			    /* max-width: 100%; */
+			    width: 70px;
+    			height: 70px;
+			    min-width: 54px;
+			    border-radius: 100%;
+			    max-width: 70px;
+			    max-height: 70px;
+			    min-width: 50px;
+			    min-height: 50px;
+			    display: block;
+			    margin: 8px auto 2px auto;
+    		}
+
+    		& p{
+    			text-align: center;
+			    color: #414141;
+			    font-weight: bold;
+			    font-size: 14px;
+			    padding-bottom: 5px;
+
+			    /* Temporary Sytle until images added */
+			    //margin: 40px auto;
+    		}
+    	}
+
+    	&__text-group{
+    		margin-left: 20px;
+
+    		&__name{
+    			font-size: 14px;
+			    font-weight: normal;
+			    margin: 30px auto 0px 0;
+			    color: #2D2D2D;
+    		}
+
+    		&__job{
+    			color: #979797;
+			    font-size: 10px;
+			    font-weight: normal;
+    		}
+    	}
+
+
+    	&__price-tag{
+		   	position: absolute;
+		    top: -15px;
+		    right: -15px;
+		    background-color: #31C17B;
+		    color: white;
+		    padding: 5px 10px;
+
+		    &__dollar{
+				font-size: 18px;
+			    font-weight: bold;
+		    }
+
+			&__amount{
+				font-size: 14px;
+    			font-weight: 400;
+			}
+    	}
+
+    	&__profile-link{
+    		position: absolute;
+		    bottom: 5px;
+		    right: 10px;
+		    min-width: 0px;
+		    min-height: 0px;
+		    font-size: 10px;
+		    text-transform: uppercase;
+		    letter-spacing: 1.2px;
+		    color: #5CAFFD;
+		    font-size: 10px;
+
+		    & img{
+		    	vertical-align: middle; 
+		    }
+    	}
+	}
+
+
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
