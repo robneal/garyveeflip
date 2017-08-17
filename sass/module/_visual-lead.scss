@@ -1,20 +1,21 @@
 .visual-lead{
-	margin-top: 60px; 
+	margin-top: 60px;
 	width: 100%;
 	//min-height:calc(85vh);
-	//max-height:530px; 
+	//max-height:530px;
 	position: relative;
 	overflow: hidden;
-	//margin-bottom:1px; 
+	background-color: #27292b;
+	//margin-bottom:1px;
 	//padding-bottom: 1px;
 
 
-	
+
 	@include at-media-breakpoint(940px) {
 		& .wrapper{
 			display: flex;
 			flex-direction: row-reverse;
-			justify-content: space-between; 
+			justify-content: space-between;
 		}
 
 		& iframe {
@@ -22,7 +23,7 @@
 		}
 
 		.visual-lead__text-group{
-			padding-right: 30px; 
+			padding-right: 30px;
 			width: 70%;
 		}
 	}
@@ -40,19 +41,24 @@
 	}
 
 	&__title{
-		font-size: 28px;
-	    font-weight: 600;
-	    line-height: 34px;
-	    margin-bottom: 15px;
-	    margin-top: 30px; 
-	    padding: 0px;  
-	    text-align: left; 
+		font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 0px;
+    text-align: left;
+		color: #ffffff;
+
+		span {
+			color: #ffb500;
+		}
 	}
 
 	&__description{
 	    font-size: 16px;
 	    line-height: 25px;
-	    color: #999;
+	    color: #f2f4f5;
 	    margin: 10px 0 20px;
 	    font-weight: 500;
 	}
