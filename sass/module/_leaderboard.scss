@@ -14,24 +14,13 @@
 	}
 
 	&__your-profile{
-	    background: #4B4B4B;
-	    max-width: 600px;
+	    background: red;
 	    margin: 0 auto;
-	    height: 230px;
 
 			@include at-media-breakpoint(768px) {
 				margin-left: 0;
 				margin-right: 0;
 			}
-
-		&__title{
-			color: white;
-		    font-weight: bold;
-		    text-transform: uppercase;
-		    padding-left: 50px;
-		    position: relative;
-		    top: 30px;
-		}
 	}
 
 	&__person{
@@ -153,6 +142,26 @@
 		    	vertical-align: middle;
 		    }
     	}
+	}
+
+	&__dots {
+		margin: 12px;
+		margin-bottom: 55px;
+
+		&__single {
+			width: 12px;
+			height: 12px;
+			border-radius: 50%;
+			background-color: #8b909c;
+			margin-bottom: 5px;
+			margin-left: 0px;
+
+			&:nth-of-type(2n){
+				width: 8px;
+				height: 8px;
+				margin-left: 2px;
+			}
+		}
 	}
 
 
