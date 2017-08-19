@@ -1,7 +1,7 @@
 .leaderboard{
 
 	&__inner-wrap {
-		display: inline-block;
+			display: inline-block;
 	}
 
 	&__title{
@@ -28,30 +28,26 @@
 
 	&__person{
 
-		height: 110px;
+		height: 142px;
     /* display: flex; */
     width: 100%;
     background: white;
-    max-width: 360px;
     position: relative;
     margin: 0 auto;
-		margin-bottom: 52px;
+		margin-bottom: 26px;
     display: block;
+		border-bottom: 1px solid #C7D7E5;
+		padding-bottom: 26px;
 
 		@include at-media-breakpoint(768px) {
 			margin-left: 0;
-			margin-right: 52px;
+			padding-right: 52px;
+			margin-right: -4px;
 			display: inline-block;
+			max-width: 410px;
 		}
 
-			&::after {
-				content: " ";
-				display: block;
-				margin-top: 26px;
-				height: 1px;
-				width: 100%;
-				background-color: #C7D7E5;
-			}
+
 
     	&__image-group{
     		width: 108px;
@@ -102,7 +98,7 @@
 
 				&__stats-group {
 					position: absolute;
-					bottom: 3px;
+					bottom: 35px;
 
 					&__place{
 						font-size: 14px;
@@ -154,6 +150,13 @@
 		margin-top: 12px;
 		margin-bottom: 55px;
 		width: 12px;
+		position: relative;
+
+		@include at-media-breakpoint(768px) {
+			margin-left: 0;
+			margin-right: 0;
+			left: 386px;
+		}
 
 		&__single {
 			width: 12px;
