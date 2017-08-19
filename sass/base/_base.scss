@@ -25,6 +25,10 @@ a{
    	touch-action: manipulation;
    	-ms-touch-action: manipulation;
 	&:hover{
-		color:$base-hover-color;  
+		color:$base-hover-color;
 	}
+}
+
+a:hover {
+  text-decoration: none;
 }
