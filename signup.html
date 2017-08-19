@@ -28,7 +28,10 @@
 		<nav class="side-menu">
 			<a class="side-menu__item side-menu__btn" href="signup.html"> Signup</a>
 			<a class="side-menu__item" href="index.html"> Leaderboard</a>
+			<a class="side-menu__item" href="dashboard.html"> Dashboard</a>
 			<a class="side-menu__item" href="login.html"> Login</a>
+
+			<span class="side-menu__close-btn">X</span>
 		</nav>
 	</div>
 
@@ -53,10 +56,81 @@
 	      	</nav>
 		</header>
 
-		<section class=" signup page-section">
+		<section class=" signup page-section page-section--gray"">
 			<section class="wrapper">
-      				
-			<h1 class="page-section__title">Create Your Account </h1>
+
+				<div class="bootstrap-form__signup">
+				                    
+				    <div class="at-form">
+				      
+				        <div class="at-title">
+				    		<h3>Create an Account</h3>
+				  		</div>
+
+				        <div class="at-pwd-form">
+				    		<form role="form" id="at-pwd-form" novalidate="" action="#" method="POST">
+				      			
+				      			<fieldset>
+
+								    <div class="at-input form-group">
+								    	<label class="control-label" for="at-field-email">Email</label>
+								    	<input type="email" class="form-control" id="at-field-email" name="at-field-email" placeholder="Email" autocapitalize="none" autocorrect="off">
+								    
+								    	<span class="help-block hide"></span>
+								  	</div>
+
+								    <div class="at-input form-group">
+									    <label class="control-label" for="at-field-password">Password</label>
+								    	<input type="password" class="form-control" id="at-field-password" name="at-field-password" placeholder="Password" autocapitalize="none" autocorrect="off">
+								    
+								    	<span class="help-block hide"></span>
+								  	</div>
+
+				    				<div class="at-input form-group">
+								    	<label class="control-label" for="at-field-password_again">Password (again)</label>
+								   		<input type="password" class="form-control" id="at-field-password_again" name="at-field-password_again" placeholder="Password (again)" autocapitalize="none" autocorrect="off">
+								    
+								    	<span class="help-block hide"></span>
+								  	</div>
+
+								    <div class="at-input form-group">
+								    	<label class="control-label" for="at-field-fullName">Name</label>
+								    	<input type="text" class="form-control" id="at-field-fullName" name="at-field-fullName" placeholder="Your Name" autocapitalize="none" autocorrect="off">
+								    
+								    	<span class="help-block hide"></span>
+								  	</div>
+
+								    <div class="at-input form-group">
+								    	<label class="control-label" for="at-field-profession">Profession</label>
+								    	<input type="text" class="form-control" id="at-field-profession" name="at-field-profession" placeholder="Your Profession" autocapitalize="none" autocorrect="off">
+								    
+								    	<span class="help-block hide"></span>
+								  	</div>
+
+								    <div class="at-input form-group">
+								    	<label class="control-label" for="at-field-bio">Bio</label>
+								    	<input type="text" class="form-control" id="at-field-bio" name="at-field-bio" placeholder="Write a short bio." autocapitalize="none" autocorrect="off">
+								    
+								    	<span class="help-block hide"></span>
+								  	</div>
+
+				        			<button type="submit" class="at-btn submit btn btn-lg btn-block btn-default" id="at-btn">
+				    					Register
+				  					</button>
+				      			</fieldset>
+				    		</form>
+				  		</div>
+
+				        <div class="at-signin-link">
+				    		<p>
+				    			If you already have an account
+				      			<a href="#" id="at-signIn" class="at-link at-signin">sign in</a>
+				      		</p>
+				  		</div>
+
+				    </div>
+				  
+                </div>
 
 			</section>
 		</section>

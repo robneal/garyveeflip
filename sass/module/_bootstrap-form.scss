@@ -2,7 +2,7 @@
 	
 }
 
-.bootstrap-form__login{
+.bootstrap-form__login, .bootstrap-form__signup{
 	width: 100%;
 	max-width: 450px;
 	margin: 30px auto; 
@@ -32,6 +32,11 @@
 	}
 
 	& .at-signup-link p {
+		text-align: center;
+    	padding: 25px 0px;
+	}
+
+	& p{
 		text-align: center;
     	padding: 25px 0px;
 	}

@@ -1282,7 +1282,7 @@ a:hover {
   font-size: 32px;
   background-color: white; }
 
-.bootstrap-form__login {
+.bootstrap-form__login, .bootstrap-form__signup {
   width: 100%;
   max-width: 450px;
   margin: 30px auto;
@@ -1292,7 +1292,7 @@ a:hover {
   border-radius: 5px;
   background-clip: padding-box;
   border-bottom: 2px solid rgba(0, 0, 0, 0.07); }
-  .bootstrap-form__login .at-form {
+  .bootstrap-form__login .at-form, .bootstrap-form__signup .at-form {
     background-color: white;
     border-radius: 5px;
     background-clip: padding-box;
@@ -1301,33 +1301,36 @@ a:hover {
     max-width: 320px;
     margin-right: auto;
     margin-left: auto; }
-  .bootstrap-form__login .at-title h3 {
+  .bootstrap-form__login .at-title h3, .bootstrap-form__signup .at-title h3 {
     text-align: center;
     padding: 20px 0px;
     text-transform: uppercase; }
-  .bootstrap-form__login .at-signup-link p {
+  .bootstrap-form__login .at-signup-link p, .bootstrap-form__signup .at-signup-link p {
     text-align: center;
     padding: 25px 0px; }
-  .bootstrap-form__login fieldset {
+  .bootstrap-form__login p, .bootstrap-form__signup p {
+    text-align: center;
+    padding: 25px 0px; }
+  .bootstrap-form__login fieldset, .bootstrap-form__signup fieldset {
     border: none; }
-  .bootstrap-form__login label {
+  .bootstrap-form__login label, .bootstrap-form__signup label {
     font-weight: 400;
     color: #686868;
     margin-bottom: 5px; }
-  .bootstrap-form__login input {
+  .bootstrap-form__login input, .bootstrap-form__signup input {
     box-shadow: none;
     height: 42px;
     font-size: 16px;
     line-height: 1.5;
     border: 1px solid #d4d9d9;
     border-radius: 3px; }
-  .bootstrap-form__login button {
+  .bootstrap-form__login button, .bootstrap-form__signup button {
     background-color: black;
     color: white;
     text-transform: uppercase;
     border: solid 3px black;
     margin-top: 30px; }
-    .bootstrap-form__login button:hover {
+    .bootstrap-form__login button:hover, .bootstrap-form__signup button:hover {
       background-color: white;
       color: black;
       text-transform: uppercase;
