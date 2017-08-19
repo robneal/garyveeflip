@@ -26,35 +26,51 @@
 	
 	<div class="body__side-menu">
 		<nav class="side-menu">
-			<a class="side-menu__item side-menu__btn" href="signup.html"> Signup</a>
-			<a class="side-menu__item" href="index.html"> Leaderboard</a>
+			<a class="side-menu__item side-menu__btn" href="signup.html">Robert Neal</a>
 			<a class="side-menu__item" href="dashboard.html"> Dashboard</a>
-			<a class="side-menu__item" href="login.html"> Login</a>
+			<a class="side-menu__item" href="index.html"> Leaderboard</a>
+			<a class="side-menu__item" href="login.html">Sign Out</a>
 			<span class="side-menu__close-btn">X</span>
 		</nav>
 	</div>
 
 
 	<div class="body__main">
+
 		<header class="site-header">
-			
-			<div class="site-header__menu-icon">
-	        	<div class="site-header__menu-icon__middle"></div>
-	      	</div>
-
-	      	<nav class="wrapper wrapper--super-wide site-header__nav">
-	      		<a class="site-header__logo" href="index.html"><img src="img/logos/gv-flip-logo2--wide.svg" /></a>
+			<section class="wrapper">
 				
-				<ul class="site-header__main-menu">
-					<a class="site-header__main-menu__links site-header__main-menu__links--text" href="login.html">Log In</a>
-					<!--<a class="site-header__main-menu__links site-header__main-menu__links--img" href="#">
-						<img src="img/users/me&donald.jpg"/>
-						<span>Dashboard</span>
-					</a>-->
-				</ul>
+				<div class="site-header__menu-icon">
+	        		<div class="site-header__menu-icon__middle"></div>
+	      		</div>
 
-	      	</nav>
+		      	<nav class="site-header__nav">
+		      		<a class="site-header__logo" href="index.html"><img src="img/logos/gv-flip-logo2--wide.svg" /></a>
+
+					<ul class="site-header__main-menu">
+						<!-- <a class="site-header__main-menu__links site-header__main-menu__links--text" href="login.html">Robert Neal</a> -->
+						<div class="dropdown">
+							<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+								Robert Neal
+								<span class="caret"></span>
+							</button>
+							
+							<ul class="dropdown-menu">
+								<li><a id="dashboard-nav">Dashboard</a></li>
+							    <li><button type="button" id="at-nav-button" class="btn btn-default navbar-btn">Sign Out</button></li>
+							</ul>
+						</div>						
+						<!--<a class="site-header__main-menu__links site-header__main-menu__links--img" href="#">
+							<img src="img/users/me&donald.jpg"/>
+							<span>Dashboard</span>
+						</a>-->
+					</ul>
+
+		      	</nav>
+			</section>
 		</header>
+
+
 
 		<section class=" dashboard page-section page-section--small-padding page-section--under-header">
 			<section class="wrapper">
@@ -229,7 +245,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 	<!-- Semantic UI Javascript --> 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/semantic.js" integrity="sha256-pw9rvtVKqbOQbjUXPQIZ3MppKOy9l6JhSAvs4vtic/k=" crossorigin="anonymous"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/semantic.js" integrity="sha256-pw9rvtVKqbOQbjUXPQIZ3MppKOy9l6JhSAvs4vtic/k=" crossorigin="anonymous"></script> -->
 
 
 	<!-- Latest compiled and minified JavaScript -->
