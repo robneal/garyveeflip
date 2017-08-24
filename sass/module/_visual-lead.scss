@@ -6,9 +6,9 @@
 	position: relative;
 	overflow: hidden;
 	background-color: #27292b;
+	//background-color: black;
 	//margin-bottom:1px;
 	//padding-bottom: 1px;
-
 
 
 	@include at-media-breakpoint(940px) {
@@ -19,7 +19,7 @@
 		}
 
 		& iframe {
-			min-height: 420px;
+			min-height: 450px;
 		}
 
 		.visual-lead__text-group{
@@ -61,6 +61,14 @@
 	    color: #f2f4f5;
 	    margin: 10px 0 32px;
 	    font-weight: 500;
+
+		a{
+			color: #5CAFFD;
+			&:hover{
+				color: #c6c6c6; 
+			}
+		}
+
 	}
 
 	&__btn{

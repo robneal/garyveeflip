@@ -26,10 +26,12 @@
 	
 	<div class="body__side-menu">
 		<nav class="side-menu">
-			<a class="side-menu__item side-menu__btn" href="signup.html">Robert Neal</a>
-			<a class="side-menu__item" href="dashboard.html"> Dashboard</a>
+			<a class="side-menu__item side-menu__btn" href="dashboard.html">Robert Neal</a>
 			<a class="side-menu__item" href="index.html"> Leaderboard</a>
-			<a class="side-menu__item" href="login.html">Sign Out</a>
+			<a class="side-menu__item" href="dashboard.html"> Dashboard</a>
+			<a class="side-menu__item" href="login.html">
+				<button type="button" id="at-nav-button" class="btn btn-default navbar-btn">Sign Out</button>
+			</a>
 			<span class="side-menu__close-btn">X</span>
 		</nav>
 	</div>
@@ -56,7 +58,7 @@
 							</button>
 							
 							<ul class="dropdown-menu">
-								<li><a id="dashboard-nav">Dashboard</a></li>
+								<li><a href="dashboard.html" id="dashboard-nav">Dashboard</a></li>
 							    <li><button type="button" id="at-nav-button" class="btn btn-default navbar-btn">Sign Out</button></li>
 							</ul>
 						</div>						
@@ -82,7 +84,10 @@
 						<img class="dashboard__profile-pic" src="img/users/me&donald.jpg" /> 
 
 						<button type="button" class="btn btn--add-flip" data-toggle="modal" data-target="#avatar-update">
-                            Change Profile Picture
+                            Edit Profile
+                        </button>
+                      	<button type="button" class="btn btn--delete-flip" data-toggle="modal" data-target="#account-delete">
+                            Delete Account 
                         </button>
 
 					</div>
@@ -164,14 +169,17 @@
                         
                             <div class="modal-body">
                             	<h3 class="modal-title">Update Profile</h3>
+                            	<h4 class="modal-subtitle">preview new image</h4>
                                 <form class="form-inline" id="new-avatar">
                                 	<div class="dashboard__profile-img-group">
                                     
-	                                    <input type="file" label="Upload Profile Picture (1 MB or less)" id = "avatar-input"><br>
+	                                   
 	                                   <!--  <img src="{{avatarPreview}}" height="200" alt="Preview" id = "avatar-preview"> -->
 	                                    <img class="dashboard__profile-pic" src="img/users/me&donald.jpg" alt="Preview" id = "avatar-preview"/> 
 	                                    
-	                                    <button type = "submit" class="btn btn--add-flip" id="submit-avatar">Change Profile Picture</button>
+	                                    <input type="file" label="Upload Profile Picture (1 MB or less)" id = "avatar-input">
+	                                    <button class="upload">Upload</button>
+	                                    <p>97</p>
     								</div>
                                      
                                 </form>

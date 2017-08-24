@@ -3,7 +3,7 @@
 	display: block;
 	color: white;
 	//padding: 0.5em 1.5em;
-	padding-top:85px;
+	padding-top:25px;
 
 	&__item{
 	    display: block;
@@ -19,6 +19,28 @@
 			text-decoration: none;
 		}
 
+
+		& button{
+			background: none;
+		    border: none;
+		    min-height: 0px;
+		    display: block;
+		    color: white;
+		    font-size: 16px;
+		    vertical-align: middle;
+		    min-height: 0px;
+		    text-decoration: none;
+		    width: 100%;
+		    text-align: left;
+		    padding: 0px;
+		    margin: 0px;
+
+		    &:hover{
+		    	background-color: transparent;
+    			border: none;
+		    }
+		}
+
 	}
 
 	&__btn{
@@ -32,9 +54,11 @@
 	    display: inline-block;
 	    font-weight: bold;
 	    margin-left: 1.5em;
+	    text-transform: uppercase; 
 
 	    &:hover{
 	    	color:#676666;
+	    	color: white; 
 	    }
 	}
 

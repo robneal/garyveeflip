@@ -1,0 +1,175 @@
+.leaderboard{
+ 
+ 
+ 	&__title{
+ 		text-align: center; 
+ 	}
+ 
+ 	&__your-profile{
+ 	    background: #4B4B4B;
+ 	    max-width: 600px;
+ 	    margin: 0 auto;
+ 	    height: 230px;
+ 
+ 		&__title{
+ 			color: white;
+ 		    font-weight: bold;
+ 		    text-transform: uppercase;
+ 		    padding-left: 50px;
+ 		    position: relative;
+ 		    top: 30px;
+ 		}
+ 	}
+ 
+ 	&__person{
+ 		
+ 		height: 110px;
+ 	    /* display: flex; */
+ 	    width: 100%;
+ 	    background: white;
+ 	    max-width: 500px;
+ 	    position: relative;
+ 	    border: solid 1px #F0F5F8;
+ 	    margin: 45px auto;
+ 	    display: flex;
+ 	    z-index: 5; 
+ 	    position: relative;
+ 
+ 	    &__rank{
+		    border: solid 2px #414141;
+		    border-radius: 17px;
+		    color: #414141;
+		    position: absolute;
+		    bottom: 5px;
+		    right: 10px;
+		    font-weight: bold;
+		    padding: 0px 10px;
+ 	    }
+
+     	&__image-group{
+     		width: 30%;
+     		background-color: #F0F5F8;
+     		max-width: 108px;
+    		min-width: 108px;
+ 
+     		& img{
+ 			    vertical-align: top;
+ 			    /* max-width: 100%; */
+ 			    width: 108px;
+     			height: 108px;
+ 			    border-radius: 0px;
+
+ 			    max-width: 108px;
+ 			    max-height: 108px;
+ 			    min-width: 108px;
+ 			    min-height: 108px;
+ 			    display: block;
+ 			    //margin: 8px auto 2px auto;
+     		}
+ 
+     		& p{
+     			text-align: center;
+ 			    color: #414141;
+ 			    font-weight: bold;
+ 			    font-size: 14px;
+ 			    padding-bottom: 5px;
+ 
+ 			    /* Temporary Sytle until images added */
+ 			    //margin: 40px auto;
+     		}
+     	}
+ 
+     	&__text-group{
+     		margin-left: 20px;
+ 
+     		&__name{
+     			font-size: 16px;
+			    font-weight: bold;
+			    margin: 30px auto 5px 0;
+			    color: #5CAFFD;
+ 			   
+ 			    & a{
+ 			    	color: #5CAFFD;
+ 			    	
+ 			    	&:hover{
+ 			    		color: #2D2D2D;
+ 			    		text-decoration: underline;
+ 			    	}
+ 			    }
+
+     		}
+ 
+     		&__job{
+     			color: #979797;
+ 			    font-size: 11px;
+ 			    font-weight: normal;
+     		}
+     	}
+ 
+ 
+     	&__price-tag{
+ 		   	position: absolute;
+ 		    top: -15px;
+ 		    right: -15px;
+ 		    background-color: #31C17B;
+ 		    color: white;
+ 		    padding: 5px 10px;
+ 		    z-index: 10; 
+ 		    min-width: 100px;
+ 
+ 		    &__dollar{
+ 				font-size: 18px;
+ 			    font-weight: bold;
+ 		    }
+ 
+ 			&__amount{
+ 				font-size: 14px;
+     			font-weight: 400;
+ 			}
+     	}
+
+     	&__price-tag-flap{
+		    position: absolute;
+		    top: 10px;
+		    right: -11px;
+		    background-color: #29A468;
+		    color: white;
+		    height: 20px;
+		    width: 20px;
+		    transform: rotate(45deg);
+		    z-index: -10;
+		    z-index: 5;
+     	}
+ 		
+ 		&__price-tag-flap--coverup{
+		    position: absolute;
+		    top: 4px;
+		    right: -1px;
+		    background-color: #ffffff;
+		    border-right: solid 1px #f0f5f8;
+		    color: white;
+		    height: 30px;
+		    width: 15px;
+		    z-index: -10;
+		    z-index: 6;
+     	}
+
+
+     	&__profile-link{
+     		position: absolute;
+ 		    bottom: 5px;
+ 		    right: 10px;
+ 		    min-width: 0px;
+ 		    min-height: 0px;
+ 		    font-size: 10px;
+ 		    text-transform: uppercase;
+ 		    letter-spacing: 1.2px;
+ 		    color: #5CAFFD;
+ 		    font-size: 10px;
+ 
+ 		    & img{
+ 		    	vertical-align: middle; 
+ 		    }
+     	}
+ 	}
+}

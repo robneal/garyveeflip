@@ -26,10 +26,10 @@
 
 	<div class="body__side-menu">
 		<nav class="side-menu">
-			<a class="side-menu__item" href="login.html"> Login</a>
-			<a class="side-menu__item" href="signup.html"> Signup</a>
+			<a class="side-menu__item side-menu__btn" href="signup.html"> Signup</a>
 			<a class="side-menu__item" href="index.html"> Leaderboard</a>
 			<a class="side-menu__item" href="dashboard.html"> Dashboard</a>
+			<a class="side-menu__item" href="login.html"> Login</a>
 
 			<span class="side-menu__close-btn">X</span>
 		</nav>
@@ -48,9 +48,9 @@
 
 					<ul class="site-header__main-menu">
 						<a class="site-header__main-menu__links site-header__main-menu__links--text" href="signup.html">Sign Up</a>
-						<a class="site-header__main-menu__links site-header__main-menu__links--text" href="login.html">
+						<!-- <a class="site-header__main-menu__links site-header__main-menu__links--text" href="login.html"> -->
 							<button type="button" id="at-nav-button" class="btn btn-default navbar-btn">Sign In</button>
-						</a>
+						<!-- </a> -->
 						<!--<a class="site-header__main-menu__links site-header__main-menu__links--img" href="#">
 							<img src="img/users/me&donald.jpg"/>
 							<span>Dashboard</span>
@@ -67,7 +67,7 @@
 				<iframe class="" width="560" height="315" src="https://www.youtube.com/embed/lv_8StGEegc?autoplay=0&enablejsapi=1&version=3&playerapiid=ytplayer"  allowfullscreen="true" allowscriptaccess="always" frameborder="0"></iframe>
 
 				<div class="visual-lead__text-group">
-					<h1 class="visual-lead__title">The GaryVee <span>#2017FlipChallenge</span></h1>
+					<h1 class="visual-lead__title">The GaryVee #2017FlipChallenge</h1>
 					<p class="visual-lead__description">
 
 						Hi VaynerNation!
@@ -88,80 +88,115 @@
 						<a href="/flipteam" target="_blank">Flip Challenge Team</a>
 
 					</p>
-					<a class="btn visual-lead__btn" href="signup.html">Sign Up</a>
+					<a class="btn btn--gv-red" href="signup.html">Sign Up</a>
 				</div>
 
 			</section>
 		</section>
 
 		<section class=" leaderboard page-section page-section--medium-padding">
+			
 			<section class="wrapper">
-				<div class="leaderboard_inner-wrap">
 				<h1 class="leaderboard__title">Leaderboard</h1>
 
+				<!-- <div class="leaderboard__flex-group"> -->
+
+				
 				<div class="leaderboard__person">
-					<div class="leaderboard__person__image-group">
-						<img src="img/users/me&donald.jpg" />
-					</div>
+ 					
+ 					<div class="leaderboard__person__image-group">
+ 						<img src="img/users/me&donald.jpg" /> 
+ 					</div>
+
 					<div class="leaderboard__person__text-group">
-						<h3 class="leaderboard__person__text-group__name">Awesome Abhi</h3>
-						<h4 class="leaderboard__person__text-group__job">Digital Marketer</h4>
-						<div class="leaderboard__person__text-group__stats-group">
-							<div class="leaderboard__person__text-group__stats-group__place">No. 1</div>
-							<div class="leaderboard__person__text-group__stats-group__amount">$19,673.25</div>
+ 						<h3 class="leaderboard__person__text-group__name">
+ 							<a data-toggle="modal" data-target="#userModal">
+ 								Robert Neal
+ 							</a>
+ 						</h3>
+ 						<h4 class="leaderboard__person__text-group__job">Digital Marketer</h4>
+ 					</div>
+ 
+ 					<div class="leaderboard__person__price-tag">
+ 						<span class="leaderboard__person__price-tag__dollar-sign">$</span>
+ 						<span class="leaderboard__person__price-tag__amount">19,673.25</span>
+ 					</div>
+
+ 					
+ 					<div class="leaderboard__person__price-tag-flap"></div>
+ 					<div class="leaderboard__person__price-tag-flap--coverup"></div>
+ 					<p class="leaderboard__person__rank">
+ 						No. 22
+ 					</p>
+ 
+ 					<!-- <a data-toggle="modal" data-target="#userModal" class="leaderboard__person__profile-link">
+ 						View Profile <img src="img/icons/right-arrow.svg"/>
+ 					</a> -->
+ 				</div>
+					
+					<div class="leaderboard__person">
+						<div class="leaderboard__person__image-group">
+							<img src="img/users/me&donald.jpg" />
+						</div>
+						<div class="leaderboard__person__text-group">
+							<h3 class="leaderboard__person__text-group__name">Awesome Abhi</h3>
+							<h4 class="leaderboard__person__text-group__job">Digital Marketer</h4>
+							<div class="leaderboard__person__text-group__stats-group">
+								<div class="leaderboard__person__text-group__stats-group__place">No. 1</div>
+								<div class="leaderboard__person__text-group__stats-group__amount">$19,673.25</div>
+							</div>
 						</div>
 					</div>
-				</div>
 
-				<div class="leaderboard__person">
-					<div class="leaderboard__person__image-group">
-						<img src="img/users/me&donald.jpg" />
-					</div>
-					<div class="leaderboard__person__text-group">
-						<h3 class="leaderboard__person__text-group__name">Audicous Ali</h3>
-						<h4 class="leaderboard__person__text-group__job">Full Stack Developer</h4>
-						<div class="leaderboard__person__text-group__stats-group">
-							<div class="leaderboard__person__text-group__stats-group__place">No. 2</div>
-							<div class="leaderboard__person__text-group__stats-group__amount">$15,137.76</div>
+					<div class="leaderboard__person">
+						<div class="leaderboard__person__image-group">
+							<img src="img/users/me&donald.jpg" />
+						</div>
+						<div class="leaderboard__person__text-group">
+							<h3 class="leaderboard__person__text-group__name">Audicous Ali</h3>
+							<h4 class="leaderboard__person__text-group__job">Full Stack Developer</h4>
+							<div class="leaderboard__person__text-group__stats-group">
+								<div class="leaderboard__person__text-group__stats-group__place">No. 2</div>
+								<div class="leaderboard__person__text-group__stats-group__amount">$15,137.76</div>
+							</div>
 						</div>
 					</div>
-				</div>
 
 
-				<div class="leaderboard__person">
-					<div class="leaderboard__person__image-group">
-						<img src="img/users/me&donald.jpg" />
-					</div>
-					<div class="leaderboard__person__text-group">
-						<h3 class="leaderboard__person__text-group__name">Bodacious Brad</h3>
-						<h4 class="leaderboard__person__text-group__job">Web Designer</h4>
-						<div class="leaderboard__person__text-group__stats-group">
-							<div class="leaderboard__person__text-group__stats-group__place">No. 3</div>
-							<div class="leaderboard__person__text-group__stats-group__amount">$19,673.25</div>
+					<div class="leaderboard__person">
+						<div class="leaderboard__person__image-group">
+							<img src="img/users/me&donald.jpg" />
+						</div>
+						<div class="leaderboard__person__text-group">
+							<h3 class="leaderboard__person__text-group__name">Bodacious Brad</h3>
+							<h4 class="leaderboard__person__text-group__job">Web Designer</h4>
+							<div class="leaderboard__person__text-group__stats-group">
+								<div class="leaderboard__person__text-group__stats-group__place">No. 3</div>
+								<div class="leaderboard__person__text-group__stats-group__amount">$19,673.25</div>
+							</div>
 						</div>
 					</div>
-				</div>
 
 
-				<div class="leaderboard__person">
-					<div class="leaderboard__person__image-group">
-						<img src="img/users/me&donald.jpg" />
-					</div>
-					<div class="leaderboard__person__text-group">
-						<h3 class="leaderboard__person__text-group__name">Divergant Dan</h3>
-						<h4 class="leaderboard__person__text-group__job">Copywriter</h4>
-						<div class="leaderboard__person__text-group__stats-group">
-							<div class="leaderboard__person__text-group__stats-group__place">No. 4</div>
-							<div class="leaderboard__person__text-group__stats-group__amount">$19,673.25</div>
+					<div class="leaderboard__person">
+						<div class="leaderboard__person__image-group">
+							<img src="img/users/me&donald.jpg" />
+						</div>
+						<div class="leaderboard__person__text-group">
+							<h3 class="leaderboard__person__text-group__name">Divergant Dan</h3>
+							<h4 class="leaderboard__person__text-group__job">Copywriter</h4>
+							<div class="leaderboard__person__text-group__stats-group">
+								<div class="leaderboard__person__text-group__stats-group__place">No. 4</div>
+								<div class="leaderboard__person__text-group__stats-group__amount">$19,673.25</div>
+							</div>
 						</div>
 					</div>
-				</div>
 
-				<div class="leaderboard__dots">
-					<div class="leaderboard__dots__single"></div>
-					<div class="leaderboard__dots__single"></div>
-					<div class="leaderboard__dots__single"></div>
-				</div>
+					<div class="leaderboard__dots">
+						<div class="leaderboard__dots__single"></div>
+						<div class="leaderboard__dots__single"></div>
+						<div class="leaderboard__dots__single"></div>
+					</div>
 
 					<div class="leaderboard__person leaderboard__your-profile">
 						<div class="leaderboard__person__image-group">
@@ -177,34 +212,35 @@
 						</div>
 					</div>
 
-				<div class="leaderboard__person">
-					<div class="leaderboard__person__image-group">
-						<img src="img/users/me&donald.jpg" />
-					</div>
-					<div class="leaderboard__person__text-group">
-						<h3 class="leaderboard__person__text-group__name">Creative Christian</h3>
-						<h4 class="leaderboard__person__text-group__job">Student</h4>
-						<div class="leaderboard__person__text-group__stats-group">
-							<div class="leaderboard__person__text-group__stats-group__place">No. 681</div>
-							<div class="leaderboard__person__text-group__stats-group__amount">$19,673.25</div>
+					<div class="leaderboard__person">
+						<div class="leaderboard__person__image-group">
+							<img src="img/users/me&donald.jpg" />
+						</div>
+						<div class="leaderboard__person__text-group">
+							<h3 class="leaderboard__person__text-group__name">Creative Christian</h3>
+							<h4 class="leaderboard__person__text-group__job">Student</h4>
+							<div class="leaderboard__person__text-group__stats-group">
+								<div class="leaderboard__person__text-group__stats-group__place">No. 681</div>
+								<div class="leaderboard__person__text-group__stats-group__amount">$19,673.25</div>
+							</div>
 						</div>
 					</div>
-				</div>
 
-				<div class="leaderboard__person">
-					<div class="leaderboard__person__image-group">
-						<img src="img/users/me&donald.jpg" />
-					</div>
-					<div class="leaderboard__person__text-group">
-						<h3 class="leaderboard__person__text-group__name">Creative Christian</h3>
-						<h4 class="leaderboard__person__text-group__job">Student</h4>
-						<div class="leaderboard__person__text-group__stats-group">
-							<div class="leaderboard__person__text-group__stats-group__place">No. 682</div>
-							<div class="leaderboard__person__text-group__stats-group__amount">$19,673.25</div>
+					<div class="leaderboard__person">
+						<div class="leaderboard__person__image-group">
+							<img src="img/users/me&donald.jpg" />
+						</div>
+						<div class="leaderboard__person__text-group">
+							<h3 class="leaderboard__person__text-group__name">Creative Christian</h3>
+							<h4 class="leaderboard__person__text-group__job">Student</h4>
+							<div class="leaderboard__person__text-group__stats-group">
+								<div class="leaderboard__person__text-group__stats-group__place">No. 682</div>
+								<div class="leaderboard__person__text-group__stats-group__amount">$19,673.25</div>
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
+
+				<!-- </div> -->
 			</section>
 		</section>
 
@@ -212,20 +248,19 @@
 
 		<footer class="site-footer page-section page-section--medium-padding  page-section--brown">
 			<section class="wrapper">
-				<p class="site-footer__mike">Gary Vee Flip Challenge</p>
+				<p class="site-footer__name">Gary Vee Flip Challenge</p>
 
 				<p class="site-footer__copyright">
 					&copy; Gary Vaynerchuk 2017. Site by <br/>
 					<a href="http://robneal.me/" target="_blank">Rob</a>,
 					<a href="#" target="_blank">Ali</a>,
 					<a href="#" target="_blank">Brad</a>,
-					<a href="https://www.abhivyas.com/" target="_blank">Abhi</a> &
-					<a href="#" target="_blank">Dan</a>
+					<a href="https://www.abhivyas.com/" target="_blank">Abhi</a>
 
 
 				</p>
 
-				<p class="site-footer__privacy"> <a href="lve-privacy-policy.pdf" target="_blank">Privacy Policy</a> | <a>Terms of Use</a> </p>
+				<p class="site-footer__privacy"> <a href="terms.html" target="_blank">Terms of Use</a> </p>
 			</section>
 		</footer>
 
@@ -249,9 +284,9 @@
                         	<h3 class="view-profile__name">Robert Neal</h3>
                             <h4 class="view-profile__profession">Front-End Web Developer</h4>
 
-                           	<div class="view-profile__text-group">
-								<span class="view-profile__text-group__dollar-sign">$</span>
-								<span class="view-profile__text-group__amount">9,003.15</span>
+                           	<div class="view-profile__price-tag">
+								<span class="view-profile__price-tag__dollar-sign">$</span>
+								<span class="view-profile__price-tag__amount">9,003.15</span>
 							</div>
 
                             <p class="view-profile__bio">

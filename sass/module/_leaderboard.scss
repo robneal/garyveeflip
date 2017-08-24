@@ -1,9 +1,5 @@
 .leaderboard{
 
-	&__inner-wrap {
-			display: inline-block;
-	}
-
 	&__title{
 		text-align: center;
 		font-weight: bold;
@@ -12,8 +8,15 @@
 		margin-bottom: 40px;
 
 		@include at-media-breakpoint(768px) {
-			text-align: left;
+			text-align: center; 
 		}
+	}
+
+
+	&__flex-group{
+		display: flex; 
+		justify-content: space-between; 
+		flex-direction: column; 
 	}
 
 	&__your-profile{
@@ -21,30 +24,30 @@
 	    margin: 0 auto;
 
 			@include at-media-breakpoint(768px) {
-				margin-left: 0;
-				margin-right: 0;
+				margin-left: auto;
+				margin-right: auto;
 			}
 	}
 
 	&__person{
 
 		height: 142px;
-    /* display: flex; */
-    width: 100%;
-    background: white;
-    position: relative;
-    margin: 0 auto;
+	    /* display: flex; */
+	    width: 100%;
+	    background: white;
+	    position: relative;
+	    margin: 0 auto;
 		margin-bottom: 26px;
-    display: block;
+	    display: block;
 		border-bottom: 1px solid #C7D7E5;
 		padding-bottom: 26px;
 
 		@include at-media-breakpoint(768px) {
-			margin-left: 0;
-			padding-right: 52px;
-			margin-right: -4px;
-			display: inline-block;
-			max-width: 410px;
+			margin-left: auto;
+			//padding-right: 52px;
+			margin-right: auto;
+			///display: inline-block;
+			max-width: 340px;
 		}
 
 

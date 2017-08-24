@@ -27,10 +27,12 @@
 		font-weight:bold;
 		text-transform: uppercase;
 		font-size: 1em;
+		border-radius:0px; 
 
 		&:hover{
-			color:white;
-			background-color: black;
+			color:black;
+			background-color: white;
+			border: solid 3px white; 
 		}
 	}
 

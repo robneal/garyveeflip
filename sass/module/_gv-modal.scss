@@ -9,6 +9,42 @@
 	    text-transform: uppercase;
 	    text-decoration: underline;
 	}
+
+	& .modal-subtitle{
+		text-align: Center;
+	    padding: 20px 0;
+	    text-transform: uppercase;
+	    text-decoration: none;
+	}
+
+	& .dashboard__profile-img-group button{
+		background-color: #31c17b;
+	    border: solid 3px #31c17b;
+	    color: white;
+	    padding: 15px 15px;
+	    margin-top: 11px;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	    font-size: 1em;
+	    width: 100%;
+	    border-radius: 0;
+	    margin-left: auto;
+	    max-width: 300px;
+	    margin-right: auto;
+	    display: block;
+	}
+
+	& .dashboard__profile-img-group p{
+		width: 130px;
+	    padding: 10px;
+	    text-align: center;
+	    color: white;
+	    background: black;
+	    line-height: 22px;
+	    margin: 25px auto;
+	    font-weight: bolder;
+	}
+
 }
 
 .gv-modal__add-item{
