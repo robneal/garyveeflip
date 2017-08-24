@@ -1,16 +1,16 @@
 .leaderboard{
- 
- 
+
+
  	&__title{
- 		text-align: center; 
+ 		text-align: center;
  	}
- 
+
  	&__your-profile{
  	    background: #4B4B4B;
  	    max-width: 600px;
  	    margin: 0 auto;
  	    height: 230px;
- 
+
  		&__title{
  			color: white;
  		    font-weight: bold;
@@ -20,27 +20,27 @@
  		    top: 30px;
  		}
  	}
- 
+
  	&__person{
- 		
+
  		height: 110px;
  	    /* display: flex; */
  	    width: 100%;
  	    background: white;
  	    max-width: 500px;
  	    position: relative;
- 	    border: solid 1px #F0F5F8;
+ 	    border: solid 1px #e0e6ea;
  	    margin: 45px auto;
  	    display: flex;
- 	    z-index: 5; 
+ 	    z-index: 5;
  	    position: relative;
- 
+
  	    &__rank{
 		    border: solid 2px #414141;
-		    border-radius: 17px;
+		    border-radius: 0;
 		    color: #414141;
 		    position: absolute;
-		    bottom: 5px;
+		    bottom: 12px;
 		    right: 10px;
 		    font-weight: bold;
 		    padding: 0px 10px;
@@ -51,7 +51,7 @@
      		background-color: #F0F5F8;
      		max-width: 108px;
     		min-width: 108px;
- 
+
      		& img{
  			    vertical-align: top;
  			    /* max-width: 100%; */
@@ -66,31 +66,31 @@
  			    display: block;
  			    //margin: 8px auto 2px auto;
      		}
- 
+
      		& p{
      			text-align: center;
  			    color: #414141;
  			    font-weight: bold;
  			    font-size: 14px;
  			    padding-bottom: 5px;
- 
+
  			    /* Temporary Sytle until images added */
  			    //margin: 40px auto;
      		}
      	}
- 
+
      	&__text-group{
      		margin-left: 20px;
- 
+
      		&__name{
      			font-size: 16px;
 			    font-weight: bold;
 			    margin: 30px auto 5px 0;
 			    color: #5CAFFD;
- 			   
+
  			    & a{
  			    	color: #5CAFFD;
- 			    	
+
  			    	&:hover{
  			    		color: #2D2D2D;
  			    		text-decoration: underline;
@@ -98,15 +98,15 @@
  			    }
 
      		}
- 
+
      		&__job{
      			color: #979797;
  			    font-size: 11px;
  			    font-weight: normal;
      		}
      	}
- 
- 
+
+
      	&__price-tag{
  		   	position: absolute;
  		    top: -15px;
@@ -114,14 +114,14 @@
  		    background-color: #31C17B;
  		    color: white;
  		    padding: 5px 10px;
- 		    z-index: 10; 
+ 		    z-index: 10;
  		    min-width: 100px;
- 
+
  		    &__dollar{
  				font-size: 18px;
  			    font-weight: bold;
  		    }
- 
+
  			&__amount{
  				font-size: 14px;
      			font-weight: 400;
@@ -140,7 +140,7 @@
 		    z-index: -10;
 		    z-index: 5;
      	}
- 		
+
  		&__price-tag-flap--coverup{
 		    position: absolute;
 		    top: 4px;
@@ -166,9 +166,9 @@
  		    letter-spacing: 1.2px;
  		    color: #5CAFFD;
  		    font-size: 10px;
- 
+
  		    & img{
- 		    	vertical-align: middle; 
+ 		    	vertical-align: middle;
  		    }
      	}
  	}

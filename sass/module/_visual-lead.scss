@@ -1,5 +1,5 @@
 .visual-lead{
-	margin-top: 60px;
+	margin-top: 30px;
 	width: 100%;
 	//min-height:calc(85vh);
 	//max-height:530px;
@@ -51,7 +51,7 @@
 		color: #ffffff;
 
 		span {
-			color: #ffb500;
+			color: #31c17b;
 		}
 	}
 
@@ -61,11 +61,12 @@
 	    color: #f2f4f5;
 	    margin: 10px 0 32px;
 	    font-weight: 500;
+			max-width: 500px;
 
 		a{
 			color: #5CAFFD;
 			&:hover{
-				color: #c6c6c6; 
+				color: #c6c6c6;
 			}
 		}
 

@@ -12,25 +12,26 @@
 
 .site-header__main-menu .btn{
 	text-transform: uppercase;
-	
+
 	padding-top: 5px !important;
-	padding-bottom: 5px !important; 
-	color:black !important; 
-	border: none !important; 
-	outline: none !important; 
-	background-color: white !important; 
-	border-color: white!important; 
+	padding-bottom: 5px !important;
+	color:black !important;
+	outline: none !important;
+	background-color: white !important;
+	border-color: white!important;
 	text-transform: lowercase;
 	font-variant: small-caps;
+	border: 1px solid #27292b!important;
+	border-radius: 0!important;
+	line-height: 26px!important;
 
 	&:hover, &:active, &:focus{
 		padding-top: 5px !important;
-		padding-bottom: 5px !important; 
-		color: #5CAFFD !important; 
-		border: none !important; 
-		outline: none !important; 
-		background-color: none !important; 
-		border-color: none !important; 
+		padding-bottom: 5px !important;
+		color: #fff !important;
+		outline: none !important;
+		background-color: #27292b !important;
+		border: 1px solid #27292b!important;
 	}
 }
 

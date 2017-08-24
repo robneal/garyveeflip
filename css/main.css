@@ -522,7 +522,7 @@ a:hover {
       color: #1F5B7C; }
     .site-header__logo img {
       max-height: 45px;
-      min-width: 140px; }
+      /*min-width: 140px;*/ }
   .site-header__main-menu {
     padding: 5px 0 0px 0;
     text-align: center;
@@ -686,11 +686,11 @@ a:hover {
   color: black;
   text-align: center;
   border: solid 3px white;
-  -webkit-transition: all 0.7s ease-out;
-  -moz-transition: all 0.7s ease-out;
-  -ms-transition: all 0.7s ease-out;
-  -o-transition: all 0.7s ease-out;
-  transition: all 0.7s ease-out; }
+  -webkit-transition: all 0.3s cubic-bezier(0.17, 1.11, 0.89, 1);
+  -moz-transition: all 0.3s cubic-bezier(0.17, 1.11, 0.89, 1);
+  -ms-transition: all 0.3s cubic-bezier(0.17, 1.11, 0.89, 1);
+  -o-transition: all 0.3s cubic-bezier(0.17, 1.11, 0.89, 1);
+  transition: all 0.3s cubic-bezier(0.17, 1.11, 0.89, 1); }
   .btn:hover {
     color: white;
     background-color: black;
@@ -755,7 +755,7 @@ a:hover {
     display: block; }
 
 .visual-lead {
-  margin-top: 60px;
+  margin-top: 30px;
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -786,13 +786,14 @@ a:hover {
     text-align: left;
     color: #ffffff; }
     .visual-lead__title span {
-      color: #ffb500; }
+      color: #31c17b; }
   .visual-lead__description {
     font-size: 16px;
     line-height: 25px;
     color: #f2f4f5;
     margin: 10px 0 32px;
-    font-weight: 500; }
+    font-weight: 500;
+    max-width: 500px; }
     .visual-lead__description a {
       color: #5CAFFD; }
       .visual-lead__description a:hover {
@@ -870,17 +871,17 @@ a:hover {
   background: white;
   max-width: 500px;
   position: relative;
-  border: solid 1px #F0F5F8;
+  border: solid 1px #e0e6ea;
   margin: 45px auto;
   display: flex;
   z-index: 5;
   position: relative; }
   .leaderboard__person__rank {
     border: solid 2px #414141;
-    border-radius: 17px;
+    border-radius: 0;
     color: #414141;
     position: absolute;
-    bottom: 5px;
+    bottom: 12px;
     right: 10px;
     font-weight: bold;
     padding: 0px 10px; }
@@ -988,7 +989,7 @@ a:hover {
   top: 0;
   transition: 0.3s;
   overflow-y: auto;
-  background: #4B4B4B; }
+  background: #191919; }
   .body__side-menu--active {
     transform: translateX(0%);
     -webkit-transform: translateX(0%); }
@@ -1020,7 +1021,7 @@ a:hover {
     min-height: 0px;
     text-decoration: none; }
     .side-menu__item:hover {
-      background: #676666;
+      background: #393b3c;
       color: white;
       text-decoration: none; }
     .side-menu__item button {
@@ -1044,8 +1045,8 @@ a:hover {
     margin: 2em 0;
     border: 2px solid #fff !important;
     color: #fff;
-    background: none !important;
-    border-radius: 2px;
+    background: #191919 !important;
+    border-radius: 0px !important;
     font-size: 16px;
     padding: 0.6em 1.8em;
     display: inline-block;
@@ -1053,8 +1054,8 @@ a:hover {
     margin-left: 1.5em;
     text-transform: uppercase; }
     .side-menu__btn:hover {
-      color: #676666;
-      color: white; }
+      color: #191919;
+      background: #fff !important; }
   .side-menu__close-btn {
     position: absolute;
     top: 12px;
@@ -1421,20 +1422,21 @@ a:hover {
   padding-top: 5px !important;
   padding-bottom: 5px !important;
   color: black !important;
-  border: none !important;
   outline: none !important;
   background-color: white !important;
   border-color: white !important;
   text-transform: lowercase;
-  font-variant: small-caps; }
+  font-variant: small-caps;
+  border: 1px solid #27292b !important;
+  border-radius: 0 !important;
+  line-height: 26px !important; }
   .site-header__main-menu .btn:hover, .site-header__main-menu .btn:active, .site-header__main-menu .btn:focus {
     padding-top: 5px !important;
     padding-bottom: 5px !important;
-    color: #5CAFFD !important;
-    border: none !important;
+    color: #fff !important;
     outline: none !important;
-    background-color: none !important;
-    border-color: none !important; }
+    background-color: #27292b !important;
+    border: 1px solid #27292b !important; }
 
 .clearfix {
   overflow: auto; }
